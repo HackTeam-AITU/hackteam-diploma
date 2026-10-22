@@ -3,7 +3,7 @@
 **Issue:** [HACK-3 — Conduct User Interviews and Analyze Hackathon Team Formation](https://hackteam-aitu-2027.youtrack.cloud/issue/HACK-3)  
 **Report updated:** 22 October 2026  
 **Interview date:** 21 October 2026  
-**Status:** Draft — three student response records analyzed; this updated report awaits a commit and peer review.
+**Status:** Three student response records analyzed; peer review pending.
 
 ## Research summary
 
@@ -264,9 +264,9 @@ A later study could investigate search effort, perceived suitability, applicatio
 | A structured summary of research findings is included. | The research summary and Section 5 provide structured findings. |
 | Conclusions are connected to functional requirements. | Section 7 maps candidate requirements to findings and question IDs. |
 | No interview results or user statements are fabricated. | Participant summaries and findings are based on the supplied answers. Dates, format, and duration use the project author's confirmation. No additional participant answers, quotations, or performance measurements are claimed. |
-| The document is committed to GitHub and reviewed through a Pull Request. | The earlier protocol is in [Draft PR #6](https://github.com/HackTeam-AITU/hackteam-diploma/pull/6). This updated local report still needs a commit to that branch and peer review. |
+| The document is committed to GitHub and reviewed through a Pull Request. | The report is submitted in [PR #6](https://github.com/HackTeam-AITU/hackteam-diploma/pull/6). Peer review is pending; review and merge history are recorded in the PR. |
 
-The next step is to check the English summaries against the original answers, commit this update to HACK-3-user-research, and submit the existing PR for review when ready. HACK-3 should be closed only after the remaining review and workflow requirements are satisfied.
+The next step is peer review of the English summaries, evidence references, and requirement traceability. Record any revisions in HACK-3-user-research. HACK-3 should be closed only after the remaining review and workflow requirements are satisfied.
 
 ## Appendix A. Participant records
 
