@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-22T20:00:00.000Z" agent="HackTeam Diploma Project" version="24.7.17" type="device">
+  <diagram id="hackteam-usecases" name="Use Case Diagram">
+    <mxGraphModel dx="1900" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1440" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="header-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="53" width="79" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-eyebrow" value="ASTANA IT UNIVERSITY  /  DIPLOMA PROJECT" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#4669DB;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="189" y="42" width="650" height="29" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-title" value="HackTeam — Use Case Diagram" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=42;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="95" y="88" width="1300" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-sub" value="Planned actor interactions, team formation workflow, and MVP scope" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="97" y="155" width="1200" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-bg" value="" style="rounded=1;arcSize=16;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.2;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="51" width="535" height="139" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-core" value="" style="rounded=1;arcSize=7;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="83" width="36" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-core-text" value="Core MVP use case" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="72" width="405" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-focus" value="" style="rounded=1;arcSize=7;fillColor=#EAF9F6;strokeColor=#0F957F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="122" width="36" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-focus-text" value="Research focus" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="112" width="405" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-optional" value="" style="rounded=1;arcSize=7;fillColor=#FFF9EF;strokeColor=#C48A4F;strokeWidth=2;dashed=1;dashPattern=5 4;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="160" width="36" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-optional-text" value="Optional / later iteration" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="149" width="405" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="system-boundary" value="" style="rounded=0;arcSize=0;fillColor=#FFFFFF;strokeColor=#4669DB;strokeWidth=2.5;" vertex="1" parent="1">
+          <mxGeometry x="369" y="227" width="1160" height="1117" as="geometry"/>
+        </mxCell>
+        <mxCell id="boundary-label-bg" value="" style="rounded=0;arcSize=0;fillColor=#FFFFFF;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="209" width="331" height="39" as="geometry"/>
+        </mxCell>
+        <mxCell id="boundary-label" value="«system»  HackTeam" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="405" y="213" width="313" height="29" as="geometry"/>
+        </mxCell>
+        <mxCell id="region-participants" value="" style="rounded=1;arcSize=12;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="275" width="470" height="430" as="geometry"/>
+        </mxCell>
+        <mxCell id="region-label-participants" value="PARTICIPANT EXPERIENCE" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#4669DB;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="442" y="287" width="426" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="region-organizing" value="" style="rounded=1;arcSize=12;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.0;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="275" width="470" height="430" as="geometry"/>
+        </mxCell>
+        <mxCell id="region-label-organizing" value="EVENT MANAGEMENT" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#4669DB;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="287" width="426" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="region-teamwork" value="" style="rounded=1;arcSize=12;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="756" width="470" height="545" as="geometry"/>
+        </mxCell>
+        <mxCell id="region-label-teamwork" value="TEAM COLLABORATION" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#4669DB;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="442" y="768" width="426" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="region-evaluation" value="" style="rounded=1;arcSize=12;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.0;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="756" width="470" height="545" as="geometry"/>
+        </mxCell>
+        <mxCell id="region-label-evaluation" value="EVALUATION &amp; ADMINISTRATION" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#4669DB;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="768" width="426" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-student" value="" style="shape=umlActor;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#203B64;strokeWidth=3.4;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="137" y="418" width="54" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-label-student" value="Student / Participant" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="19" y="519" width="290" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-leader" value="" style="shape=umlActor;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#203B64;strokeWidth=3.4;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="137" y="888" width="54" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-label-leader" value="Team Leader" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="19" y="989" width="290" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-mentor-actor" value="" style="shape=umlActor;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#C48A4F;strokeWidth=3.4;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="137" y="1173" width="54" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-label-mentor-actor" value="Mentor" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#A77339;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="19" y="1274" width="290" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-organizer" value="" style="shape=umlActor;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#203B64;strokeWidth=3.4;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1713" y="418" width="54" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-label-organizer" value="Hackathon Organizer" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="519" width="290" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-judge-actor" value="" style="shape=umlActor;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#C48A4F;strokeWidth=3.4;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1713" y="883" width="54" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-label-judge-actor" value="Judge / Evaluator" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#A77339;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="984" width="290" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-admin" value="" style="shape=umlActor;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#203B64;strokeWidth=3.4;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1713" y="1053" width="54" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor-label-admin" value="System Administrator" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="1154" width="290" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-student-profile" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-student" target="uc-profile">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-student-discover" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-student" target="uc-discover">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-student-match" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-student" target="uc-match">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-student-trial" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-student" target="uc-trial">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-leader-team" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-leader" target="uc-team">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-leader-invitations" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-leader" target="uc-invitations">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-leader-tasks" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-leader" target="uc-tasks">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-leader-submit" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-leader" target="uc-submit">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-mentor-actor-mentor" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#C48A4F;strokeWidth=2.5;endArrow=none;startArrow=none;dashed=1;dashPattern=7 5;exitX=1;exitY=0.54;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-mentor-actor" target="uc-mentor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-organizer-publish" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=0;exitY=0.54;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-organizer" target="uc-publish">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-organizer-register" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=0;exitY=0.54;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-organizer" target="uc-register">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-organizer-monitor" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=0;exitY=0.54;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-organizer" target="uc-monitor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-organizer-basic-eval" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=0;exitY=0.54;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-organizer" target="uc-basic-eval">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-judge-actor-judge" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#C48A4F;strokeWidth=2.5;endArrow=none;startArrow=none;dashed=1;dashPattern=7 5;exitX=0;exitY=0.54;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-judge-actor" target="uc-judge">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-admin-access" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8EA1BD;strokeWidth=2.2;endArrow=none;startArrow=none;exitX=0;exitY=0.54;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-admin" target="uc-access">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-profile" value="Maintain participant profile" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-discover" value="Discover &amp; register for hackathons" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="415" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-match" value="Find teammates using multiple criteria" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EAF9F6;strokeColor=#0F957F;strokeWidth=3.0;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="510" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-trial" value="Participate in Trial Sprint" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EAF9F6;strokeColor=#0F957F;strokeWidth=3.0;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="605" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-team" value="Create &amp; manage team" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="812" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-invitations" value="Manage invitations and members" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="907" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-tasks" value="Manage team tasks &amp; deadlines" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1002" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-submit" value="Submit hackathon project" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1097" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-mentor" value="Review progress &amp; provide guidance" style="ellipse;html=1;whiteSpace=wrap;fillColor=#FFF9EF;strokeColor=#C48A4F;strokeWidth=2.2;fontColor=#A77339;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1214" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-publish" value="Create &amp; publish hackathons" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="320" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-register" value="Manage registrations and rules" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="415" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-monitor" value="Track teams and submissions" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="510" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-basic-eval" value="Record basic project evaluations" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="605" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-judge" value="Advanced judging workflows" style="ellipse;html=1;whiteSpace=wrap;fillColor=#FFF9EF;strokeColor=#C48A4F;strokeWidth=2.2;fontColor=#A77339;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="927" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-access" value="Manage accounts &amp; permissions" style="ellipse;html=1;whiteSpace=wrap;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.2;fontColor=#172D59;fontFamily=Arial;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1097" width="430" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="small-caption" value="Team Leader is a participant role with additional team-management permissions." style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1320" width="1000" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer-rule" value="" style="rounded=0;arcSize=0;fillColor=#DAE3F0;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1380" width="1710" height="2" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer" value="Scope aligned with HackTeam Project Proposal. Diagram shows planned behavior, not implemented features." style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="96" y="1390" width="1660" height="32" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

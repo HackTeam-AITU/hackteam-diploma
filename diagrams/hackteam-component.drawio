@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-22T20:00:00.000Z" agent="HackTeam Diploma Project" version="24.7.17" type="device">
+  <diagram id="hackteam-components" name="Component Diagram">
+    <mxGraphModel dx="1900" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1440" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="header-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="53" width="79" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-eyebrow" value="ASTANA IT UNIVERSITY  /  DIPLOMA PROJECT" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#4669DB;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="189" y="42" width="650" height="29" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-title" value="HackTeam — Component Diagram" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=42;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="95" y="88" width="1220" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-sub" value="Proposed modular architecture, communication paths, and research components" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="97" y="155" width="1250" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-bg" value="" style="rounded=1;arcSize=16;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.2;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="51" width="535" height="139" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-core" value="" style="rounded=1;arcSize=7;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="83" width="36" height="9" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-core-text" value="Core MVP component" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="72" width="405" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-focus" value="" style="rounded=1;arcSize=7;fillColor=#EAF9F6;strokeColor=#0F957F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="122" width="36" height="9" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-focus-text" value="Research focus" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="112" width="405" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-choice" value="" style="rounded=1;arcSize=7;fillColor=#FFF9EF;strokeColor=#C48A4F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="160" width="36" height="9" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-choice-text" value="Proposed technology (not final)" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="149" width="405" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="system-boundary" value="" style="rounded=0;arcSize=0;fillColor=#FFFFFF;strokeColor=#4669DB;strokeWidth=2.5;" vertex="1" parent="1">
+          <mxGeometry x="341" y="236" width="1480" height="1078" as="geometry"/>
+        </mxCell>
+        <mxCell id="boundary-label-bg" value="" style="rounded=0;arcSize=0;fillColor=#FFFFFF;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="216" width="486" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="boundary-label" value="«system»  HackTeam — planned solution" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="379" y="222" width="458" height="29" as="geometry"/>
+        </mxCell>
+        <mxCell id="browser-shadow" value="" style="rounded=1;arcSize=14;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.6;" vertex="1" parent="1">
+          <mxGeometry x="65" y="631" width="222" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="browser-window" value="" style="rounded=1;arcSize=9;fillColor=#FFFFFF;strokeColor=#4669DB;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="662" width="164" height="82" as="geometry"/>
+        </mxCell>
+        <mxCell id="browser-titlebar" value="" style="rounded=1;arcSize=7;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="95" y="662" width="164" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="browser-dot-0" value="" style="rounded=1;arcSize=6;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="107" y="668" width="6" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="browser-dot-1" value="" style="rounded=1;arcSize=6;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="119" y="668" width="6" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="browser-dot-2" value="" style="rounded=1;arcSize=6;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="668" width="6" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="browser-label" value="Web Browser" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="82" y="751" width="193" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="browser-users" value="Participants · organizers · admins" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="72" y="786" width="216" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-box" value="" style="rounded=1;arcSize=14;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.8;" vertex="1" parent="1">
+          <mxGeometry x="392" y="493" width="298" height="385" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-label-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="417" y="515" width="33" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-kicker" value="PRESENTATION LAYER" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#4669DB;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="459" y="500" width="205" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-title" value="Web Client" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=26;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="418" y="560" width="239" height="39" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-tech-bg" value="" style="rounded=1;arcSize=10;fillColor=#FFF9EF;strokeColor=#C48A4F;strokeWidth=1.4;" vertex="1" parent="1">
+          <mxGeometry x="417" y="616" width="246" height="47" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-tech" value="React + TypeScript · candidate" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#A77339;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="425" y="625" width="228" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-participant" value="" style="rounded=1;arcSize=10;fillColor=#FFFFFF;strokeColor=#DAE3F0;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="417" y="699" width="246" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-participant-text" value="Participant / Team UI" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="427" y="709" width="224" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-organizer" value="" style="rounded=1;arcSize=10;fillColor=#FFFFFF;strokeColor=#DAE3F0;strokeWidth=1.3;" vertex="1" parent="1">
+          <mxGeometry x="417" y="769" width="246" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-organizer-text" value="Organizer / Admin UI" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="427" y="779" width="224" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="client-note" value="Responsive interface · planned" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="417" y="838" width="246" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-panel" value="" style="rounded=1;arcSize=14;fillColor=#F6F9FD;strokeColor=#DAE3F0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="765" y="299" width="981" height="842" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-top-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="801" y="321" width="34" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-eyebrow" value="APPLICATION LAYER" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#4669DB;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="845" y="306" width="311" height="39" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-title" value="Backend Application" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=29;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="802" y="355" width="512" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-tech-bg" value="" style="rounded=1;arcSize=12;fillColor=#FFF9EF;strokeColor=#C48A4F;strokeWidth=1.4;" vertex="1" parent="1">
+          <mxGeometry x="1356" y="349" width="342" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-tech" value="Spring Boot (Java) · proposed" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=16;fontColor=#A77339;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="359" width="324" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-notes" value="Modular monolith · business rules · REST endpoints" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=16;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="804" y="405" width="844" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="path-browser-client" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#4669DB;strokeWidth=2.6;startArrow=none;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="726" as="sourcePoint"/>
+            <mxPoint x="391" y="726" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="path-client-backend" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#4669DB;strokeWidth=2.6;startArrow=none;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="691" y="706" as="sourcePoint"/>
+            <mxPoint x="764" y="706" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-profiles-matching" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#0F957F;strokeWidth=2.15;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="module-profiles" target="module-matching">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="flow-membership-matching" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#0F957F;strokeWidth=2.15;startArrow=none;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="module-membership" target="module-matching">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="flow-matching-trial" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#0F957F;strokeWidth=2.15;startArrow=none;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="module-matching" target="module-trial">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="flow-workspace-submissions" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8297B6;strokeWidth=2.15;startArrow=none;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="module-workspace" target="module-submissions">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="flow-submissions-evaluation" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#8297B6;strokeWidth=2.15;startArrow=none;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="module-submissions" target="module-evaluation">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-identity" value="" style="rounded=1;arcSize=12;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=1.8;" vertex="1" parent="1">
+          <mxGeometry x="804" y="440" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-identity-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="822" y="459" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-identity-name" value="Identity &amp; Access" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="479" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-identity-desc" value="Accounts · roles · permissions" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="518" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-identity-owner" value="Primary: Daniyar" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="551" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-profiles" value="" style="rounded=1;arcSize=12;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=1.8;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="440" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-profiles-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="459" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-profiles-name" value="Participant Profiles" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="479" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-profiles-desc" value="Skills · experience · availability" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="518" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-profiles-owner" value="Primary: Madina" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="551" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-hackathons" value="" style="rounded=1;arcSize=12;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=1.8;" vertex="1" parent="1">
+          <mxGeometry x="1404" y="440" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-hackathons-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="459" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-hackathons-name" value="Hackathon Management" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="479" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-hackathons-desc" value="Events · rules · registration" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="518" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-hackathons-owner" value="Primary: Kassymbek" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="551" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-membership" value="" style="rounded=1;arcSize=12;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=1.8;" vertex="1" parent="1">
+          <mxGeometry x="804" y="615" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-membership-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="822" y="634" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-membership-name" value="Teams &amp; Invitations" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="654" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-membership-desc" value="Members · invitations · limits" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="693" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-membership-owner" value="Primary: Kassymbek" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="726" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-matching" value="" style="rounded=1;arcSize=12;fillColor=#EAF9F6;strokeColor=#0F957F;strokeWidth=2.25;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="615" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-matching-accent" value="" style="rounded=0;arcSize=0;fillColor=#0F957F;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="634" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-matching-name" value="Multi-Criteria Matching" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="654" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-matching-desc" value="Constraints · candidate ranking" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="693" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-matching-owner" value="Primary: Madina" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#0F957F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="726" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-trial" value="" style="rounded=1;arcSize=12;fillColor=#EAF9F6;strokeColor=#0F957F;strokeWidth=2.25;" vertex="1" parent="1">
+          <mxGeometry x="1404" y="615" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-trial-accent" value="" style="rounded=0;arcSize=0;fillColor=#0F957F;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="634" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-trial-name" value="Trial Sprint" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="654" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-trial-desc" value="Tasks · deadlines · observations" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="693" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-trial-owner" value="Primary: Madina" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#0F957F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="726" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-workspace" value="" style="rounded=1;arcSize=12;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=1.8;" vertex="1" parent="1">
+          <mxGeometry x="804" y="790" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-workspace-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="822" y="809" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-workspace-name" value="Team Workspace" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="829" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-workspace-desc" value="Team tasks · project milestones" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="868" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-workspace-owner" value="Primary: Kassymbek" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="822" y="901" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-submissions" value="" style="rounded=1;arcSize=12;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=1.8;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="790" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-submissions-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="809" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-submissions-name" value="Project Submission" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="829" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-submissions-desc" value="Artifacts · submission status" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="868" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-submissions-owner" value="Primary: Kassymbek" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="901" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-evaluation" value="" style="rounded=1;arcSize=12;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=1.8;" vertex="1" parent="1">
+          <mxGeometry x="1404" y="790" width="281" height="141" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-evaluation-accent" value="" style="rounded=0;arcSize=0;fillColor=#4669DB;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="809" width="38" height="5" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-evaluation-name" value="Evaluation &amp; Admin" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="829" width="245" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-evaluation-desc" value="Basic results · organizer tools" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="868" width="245" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-evaluation-owner" value="Primary: Daniyar" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#203B64;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="901" width="245" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="common-bar" value="" style="rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#DAE3F0;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="804" y="970" width="881" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="common-title" value="Cross-cutting Services" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="824" y="980" width="550" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="common-sub" value="Input validation  •  authorization checks  •  transactional business operations" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="824" y="1027" width="839" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="path-backend-db" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#4669DB;strokeWidth=2.6;startArrow=none;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1141" as="sourcePoint"/>
+            <mxPoint x="1255" y="1172" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="db" value="" style="shape=cylinder3;whiteSpace=wrap;boundedLbl=1;fillColor=#EFF4FF;strokeColor=#4669DB;strokeWidth=2.4;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="1178" width="367" height="121" as="geometry"/>
+        </mxCell>
+        <mxCell id="db-title" value="PostgreSQL" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontColor=#172D59;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="1226" width="286" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="db-sub" value="Relational persistence · proposed" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=16;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1093" y="1265" width="343" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-ui-note" value="HTTPS / UI" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="290" y="649" width="93" height="29" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-api-note" value="REST / JSON" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#203B64;fontStyle=1;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="691" y="645" width="78" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="db-flow-note" value="SQL / transactions" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=16;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="1165" width="257" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="system-inline-note" value="Internal arrows show selected logical dependencies, not all possible calls." style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="392" y="1258" width="1050" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer-rule" value="" style="rounded=0;arcSize=0;fillColor=#DAE3F0;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1365" width="1710" height="2" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer" value="Based on HackTeam Project Proposal and Technology Comparison. Planned architecture; implementation not yet completed." style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#66768F;fontStyle=0;spacing=0;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="96" y="1377" width="1686" height="31" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
