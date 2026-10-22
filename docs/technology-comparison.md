@@ -22,7 +22,7 @@
 | Criterion | Spring Boot | NestJS | Django |
 |---|---|---|---|
 | Programming language | Java | TypeScript | Python |
-| Architecture | | | |
+| Architecture | Layered architecture with Controllers, Services, and Repositories. Supports Dependency Injection and modular application design. | Modular architecture based on Modules, Controllers, and Providers. Supports Dependency Injection and separation of responsibilities. | Model-Template-View (MTV) architecture with reusable applications, built-in ORM, and separation of data, business logic, and presentation. |
 | Security | | | |
 | Database integration | | | |
 | Testing | | | |
