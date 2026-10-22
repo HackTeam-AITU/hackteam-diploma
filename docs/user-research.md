@@ -1,14 +1,17 @@
 # HackTeam — User Research
 
 **Issue:** [HACK-3 — Conduct User Interviews and Analyze Hackathon Team Formation](https://hackteam-aitu-2027.youtrack.cloud/issue/HACK-3)  
-**Prepared:** 22 October 2026  
-**Status:** Draft research protocol — data collection pending.
+**Report updated:** 22 October 2026  
+**Interview date:** 21 October 2026  
+**Status:** Draft — three student response records analyzed; this updated report awaits a commit and peer review.
 
-## Purpose and scope
+## Research summary
 
-HackTeam is a proposed web platform for student hackathon management and team formation. Its planned concepts include multi-criteria matching, a preliminary collaboration stage called Trial Sprint, and an optional Project Reliability Profile. Their usefulness and practical limitations are research questions.
+This exploratory study examines student experiences of finding hackathon teammates and coordinating project work. Three response records were supplied by the project author, who confirmed that the answers were obtained from the participants in real, in-person discussions on 21 October 2026, lasting approximately 20 minutes each. Each supplied record states that use of the responses was permitted.
 
-This document provides research objectives, a planned interview methodology, consent considerations, interview questions, a response template, an analysis framework, and candidate requirements to investigate. Real interview records have not yet been supplied for inclusion. Findings and final requirements will be added after actual discussions.
+The records describe teammate searches through university Telegram groups and personal contacts, difficulty assessing role suitability and working expectations, and coordination pressure during project delivery. All three participants considered Trial Sprint potentially useful for unfamiliar teams, but their preferred effort and timing differed, and each identified limitations. Project history was considered potentially helpful, subject to evidence, privacy, context, and fair treatment of newcomers.
+
+The participants' most explicit first-version priorities concern finding suitable teams or teammates. The findings inform candidate requirements; they do not establish that HackTeam's proposed matching method or Trial Sprint improves team outcomes. This report describes a small qualitative sample, not a representative survey.
 
 ## 1. Research objectives
 
@@ -18,33 +21,52 @@ This document provides research objectives, a planned interview methodology, con
 - Explore whether a Project Reliability Profile would inform team selection, which evidence participants would trust, and what privacy controls they would expect.
 - Use documented feedback to propose requirements and an initial MVP scope, separating evidence from assumptions and proposed solutions.
 
-## 2. Participants and method
+## 2. Participants and methodology
 
-Plan 3–5 individual, semi-structured discussions, approximately 20–30 minutes each. This is a suggested interview length, not an acceptance criterion.
+### 2.1 Target groups and sample
 
-Recruit students with a concrete, preferably recent experience of joining, forming, or attempting to form a hackathon team. Where available, include different experiences, such as a team leader and a student whose attempt to join a team was unsuccessful. Project-team experience can provide additional context; label it separately from hackathon experience.
+The project targets students participating in hackathons, students looking for project teammates, team leaders, and hackathon organizers. This study uses the student-discussion route permitted by HACK-3. It does not claim to cover every target group.
 
-The target user groups also include hackathon organizers and team leaders. The issue does not require interviewing every group. An organizer interview may add another perspective, but it must be identified as such rather than treated as a student interview.
+| Participant | Reported role | Relevant experience |
+|---|---|---|
+| Aisaule | Frontend developer and UI/UX designer | University hackathon participant responsible for interface design and frontend work; joined a team before the event. |
+| Daryn | Backend developer and team leader | Student hackathon participant who led a four-person team and worked on the backend. |
+| Nurdaulet | Fullstack developer | Hackathon participant in a four-person student team; worked on frontend and helped with backend integration. |
 
-HACK-3 also permits a substantive discussion with a real client or organizer as an alternative. This guide is primarily designed for the 3–5 student discussion route. A client discussion would need questions adapted to the client's actual responsibilities and operational experience.
+The supplied first names are used as participant reference labels. Surnames and contact details are excluded from this report. Recruitment details, participant demographics, and whether the accounts concern different events were not supplied. These details must not be inferred from the response content.
 
-Use the same core questions, with neutral follow-up prompts. Discuss past experience before introducing HackTeam's proposed concepts. Do not present the proposed features as proven improvements. Record skipped, declined, or inapplicable questions explicitly.
+### 2.2 Procedure and data source
 
-Suggested timing: introduction and consent, 2 minutes; past experience, 12–15 minutes; concept feedback, 7–10 minutes; closing, 1–2 minutes. Allow longer if the participant agrees.
+| Item | Recorded information |
+|---|---|
+| Study approach | Exploratory qualitative interviews using a common 16-question guide. |
+| Number of response records | Three, with answers to Q01-Q16 in each record. |
+| Date | 21 October 2026 for all three, as confirmed by the project author. |
+| Format | In person, as confirmed by the project author. |
+| Approximate duration | 20 minutes per participant, as confirmed by the project author. |
+| Language of supplied answers | Russian. |
+| Source for this report | Participant answer records supplied by the project author, who confirmed they came from real participants. |
+| English presentation | Translated, condensed summaries. These are not verbatim English quotations. |
+| Recruitment procedure | Not supplied. |
+| Recordings or verbatim transcripts | Not supplied for this analysis; this report does not assert whether any were made. |
+
+The guide begins with concrete past experience (Q01-Q09), followed by reactions to Trial Sprint (Q10-Q12), project participation history (Q13-Q15), and a closing priority question (Q16). It uses open questions and neutral follow-up prompts to distinguish reported incidents from opinions about possible features. The exact use of follow-up prompts during individual discussions was not documented.
+
+### 2.3 Analysis method
+
+Answers were organized by question and coded into search channels, role suitability, availability, goals, responsibility allocation, communication, deadlines, changes in participation, Trial Sprint, profile evidence, privacy, fairness, and feature priorities. The analysis compares supporting and differing accounts and retains references to participant names and question IDs.
+
+Reported experiences, participant preferences, researcher interpretations, and candidate solutions are kept separate. Counts, where mentioned, refer only to the three supplied records. No statistical representativeness, thematic saturation, or independent verification of the reported events is claimed.
 
 ## 3. Consent and privacy
 
-Suggested introduction:
+Each supplied participant record states that use of the answers was permitted. Consent status is reported on the basis of those records. No permission for audio recording is claimed.
 
-> I am researching how students find teammates and work together during hackathons for the HackTeam diploma project. The discussion takes approximately 20–30 minutes. Participation is voluntary; you may skip any question or stop at any time. With your permission, I will take notes and use de-identified summaries in our project documentation, which will be reviewed by the project team. I will omit names, contact details, and identifying details about teammates. May I continue and take notes? May I include de-identified excerpts of your answers?
+This report uses the first names supplied by the project author and paraphrases the answers in English. Surnames and contact details are omitted. Detailed source notes should remain separate from the repository document. The blank template in Appendix B supports future recording of participation, note-taking, excerpt, and recording permissions separately.
 
-Record consent before collecting interview answers. If consent is not given, do not conduct or document the interview as research data. Seek separate permission for any audio recording; notes are sufficient for this protocol.
+Participants should be able to skip questions or end a discussion. These are protocol principles; the provided notes do not document the exact consent script or every interaction during the interviews.
 
-Use participant IDs such as P01 and P02. Do not place names, contact details, consent recordings, or raw audio in GitHub. Keep consent evidence and any necessary identifying information separately from research notes. Explain any intended audience beyond the project team before asking for consent. Do not claim complete anonymity merely because a name has been removed.
-
-Interviews may be conducted in the participant's preferred language. Preserve the meaning when preparing English summaries. Label translations. Use quotation marks only for accurately captured wording; otherwise label the text as a paraphrase.
-
-## 4. Core interview questions
+## 4. Interview questions
 
 ### Past experience — ask before presenting the proposed features
 
@@ -128,10 +150,234 @@ Looking back at your experience, what one change would most improve finding or w
 
 Do not suggest a desired answer. Avoid praise that rewards agreement with the proposed features. A negative opinion, a successful existing process, and a lack of interest are useful findings too.
 
-## 5. Interview record — copy once per participant
+## 5. Findings from the supplied interview records
+
+### 5.1 Past experiences and current practices
+
+| Finding ID | Finding within this sample | Evidence | Interpretation boundary |
+|---|---|---|---|
+| F01 | Search relied on personal contacts and university Telegram groups. Reported search durations were approximately two days for Aisaule, three days for Daryn, and one day for Nurdaulet. | Aisaule, Daryn, and Nurdaulet, Q02. | These are recalled durations in three accounts, not an average search time for the student population or evidence of time saved by HackTeam. |
+| F02 | Suitable roles and information about working practices were difficult to assess. Aisaule described difficulty finding a team that accepted her skills; Daryn needed frontend capability when available candidates were mainly backend developers. Nurdaulet emphasized interest and commitment and reported a late withdrawal before the event. | Aisaule, Daryn, and Nurdaulet, Q03-Q04. | The examples concern different obstacles. They do not establish that skill mismatch is the only or most frequent reason teams fail to form. |
+| F03 | Initial agreements did not eliminate differences in schedules or goals. Aisaule described class commitments affecting simultaneous work; Daryn adjusted to differing night-time availability; Nurdaulet described differing ambitions to try the event or win. | Aisaule, Daryn, and Nurdaulet, Q05. | Availability and commitment are related but distinct. The records do not determine a matching formula or the relative weight of either criterion. |
+| F04 | Teams allocated work, but visibility and participation could change. Aisaule used leader-assigned tasks recorded in Telegram; Daryn used GitHub Projects; Nurdaulet used Trello but did not always update task statuses. Aisaule and Nurdaulet described redistribution of work; Daryn described uncertainty while a member had technical problems. | Aisaule, Daryn, and Nurdaulet, Q06 and Q09. | Reduced activity has different causes. A technical outage or personal constraint must not automatically be interpreted as a person's general unreliability. A task board alone does not guarantee up-to-date information. |
+| F05 | Communication problems had several forms: information lost in chat (Aisaule), unannounced code changes and merge conflicts (Daryn), and delayed replies (Nurdaulet). | Aisaule, Daryn, and Nurdaulet, Q07; Daryn, Q09. | The accounts support investigating communication and progress visibility, rather than assuming a single feature would solve all coordination problems. |
+| F06 | Delivery pressure involved integration, defects, scope, and testing. Aisaule reported on-time submission with last-minute integration work; Daryn described an API defect and removal of an optional feature; Nurdaulet submitted a reduced feature set after extended scope discussion and late testing. | Aisaule, Daryn, and Nurdaulet, Q08. | These records do not establish missed submission deadlines. Deadline visibility cannot by itself prevent integration defects, over-scoping, or insufficient testing. |
+
+Successful practices are also relevant: participants used existing personal networks, distributed responsibilities, adjusted schedules, communicated progress, and reduced scope where needed. HackTeam should account for these practices rather than assume that all current processes are ineffective.
+
+### 5.2 Trial Sprint feedback
+
+| Participant | Perceived usefulness and limitations | Active work effort | Elapsed period | Preferred timing |
+|---|---|---|---|---|
+| Aisaule | Potentially useful for unfamiliar teammates, less useful for friends. A large task would discourage participation; one task may not reveal skills fully, particularly when someone is anxious. | Approximately 2-3 hours. | Within two days. | Several days before the hackathon. |
+| Daryn | Potentially useful with unfamiliar developers, but not desirable for every hackathon. A full project would be excessive; a short task does not show performance under strong pressure. | Approximately 3-4 hours. | Within two to three days. | Approximately one week before the event. |
+| Nurdaulet | Potentially useful for unfamiliar teams, but a compulsory stage may obstruct quick team formation. A small task may not reflect behavior during the real event. | Approximately 1-2 hours. | Within one to two days. | Approximately three to four days before the event; an entire week would be undesirable. |
+
+**F07 — Conditional interest, not demonstrated effectiveness:** All three supplied records describe possible value for newly formed or unfamiliar teams, alongside limits or participation costs (Q10-Q12). This is stated willingness and perceived usefulness. No participant completed a Trial Sprint as part of this study.
+
+There is no single agreed duration. Active work effort must be distinguished from the calendar window. The participants' estimates can inform prototype options and a future pilot; they do not justify presenting a fixed duration as validated.
+
+Desired observations include communication, responsiveness, fulfillment of agreements, task coordination, use of Git, and code work (Aisaule, Daryn, and Nurdaulet, Q12). These are candidates for a transparent review process, not validated scoring criteria or an automatic admission test.
+
+### 5.3 Project Reliability Profile feedback
+
+**F08 — Inspectable evidence matters:** Aisaule and Daryn viewed project history positively; Nurdaulet would consider it but would not make it the main selection criterion. Relevant information included project links, roles, technologies, and participation history. Daryn mentioned organizer confirmation; Aisaule emphasized projects that could be inspected directly (Q13).
+
+**F09 — Visibility, context, and correction matter:** All three records request control over shared information. Contacts, personal information, and personal reviews require particular care. Aisaule and Nurdaulet raise the treatment of newcomers and subjective reviews; Daryn explains that code or commit volume does not capture task difficulty or contribution quality (Q14-Q15).
+
+These views support investigating evidence and user controls. They do not validate an overall reliability score, prove that historical records predict future performance, or justify penalizing people with no history.
+
+### 5.4 Explicit first-version priorities
+
+| Participant | Stated priority in Q16 |
+|---|---|
+| Aisaule | Find teams requiring particular skills, such as React or frontend development. |
+| Daryn | Find participants using technology, experience, and availability filters. |
+| Nurdaulet | View team announcements with project descriptions, required skills, and available places, and apply through HackTeam. |
+
+**F10 — Team discovery is the clearest stated priority in these records:** The three Q16 answers prioritize finding teams or participants. They do not constitute a ranking of every proposed platform feature. Experience filters need careful design in light of the newcomer concerns expressed in Q15.
+
+## 6. Supported findings versus assumptions and proposed solutions
+
+“Supported” in this report means traceable to a supplied interview record. A participant's account supports a statement about that person's reported experience; it is not independent proof of the event, a population-wide result, or validation of a technical solution.
+
+| Evidence or claim | Classification | Status |
+|---|---|---|
+| Students in these records used Telegram groups and contacts to find teammates. | Reported past experience, F01. | Supported within Aisaule, Daryn, and Nurdaulet. |
+| Schedules, expectations, communication, and changing participation affected work in the reported cases. | Reported past experiences, F03-F06. | Supported within the relevant records, with different causes and consequences. |
+| Trial Sprint may help unfamiliar teams and should have limited effort. | Participant opinion, F07. | Supported as a preference; effectiveness remains untested. |
+| Inspectable project evidence, visibility choices, and correction mechanisms matter to these respondents. | Participant preference, F08-F09. | Supported within the sample; detailed implementation remains to be designed and tested. |
+| Multi-criteria matching will reduce search time or improve team outcomes. | Research hypothesis. | Not tested by these interviews. |
+| A short preliminary task can predict long-term reliability. | Research hypothesis. | Not tested; respondents identify reasons it may not. |
+| A specific weighting scheme or fixed Trial Sprint duration is optimal. | Design assumption. | Not established by the records. |
+| One platform should integrate discovery, applications, tasks, and history. | Proposed product direction. | Parts align with reported needs, but the complete workflow and its benefit require evaluation. |
+
+## 7. Implications for requirements and MVP scope
+
+### 7.1 Candidate functional requirements
+
+The following proposals translate evidence into design candidates. The findings support the needs described, while implementation details remain proposals subject to team review and testing.
+
+| Requirement ID | Candidate requirement | Evidence trace | Scope and limitation |
+|---|---|---|---|
+| UR-01 | Allow participants to describe technologies, skills, relevant experience, desired roles, and event-specific availability or goals. | F02-F03; Aisaule, Daryn, and Nurdaulet, Q03-Q05; Daryn, Q16. | Ask only for useful information and provide suitable visibility controls. Self-reported fields are not verified proficiency measures. |
+| UR-02 | Support discovery of teams and participants through role and technology criteria, with understandable team descriptions, required skills, and vacancies. | F02, F10; Aisaule, Daryn, and Nurdaulet, Q16. | Prioritize clear discovery. Additional experience filters must not imply that newcomers are poor teammates. Ranking weights require separate research. |
+| UR-03 | Let a participant apply to a team and track the response through an explicit membership workflow. | F10; Nurdaulet, Q16; F01. | In-app applications directly address Nurdaulet's request. Invitation, acceptance, and confirmation details are product design proposals. |
+| UR-04 | Provide a team workspace with task owners, task states, deadlines, and a lightweight way to communicate progress or unavailability. | F04-F05; Aisaule, Daryn, and Nurdaulet, Q06-Q09. | Preserve useful existing practices. Stale updates, technical outages, and personal constraints require context rather than automatic negative judgments. |
+| UR-05 | Make important project information, milestones, and submission links easy to find. | F05-F06; Aisaule, Q07-Q08; Daryn and Nurdaulet, Q08. | Partly derived from the planned project scope. The evidence does not establish that this prevents software defects or resolves every communication problem. |
+| UR-06 | Prototype a limited preliminary collaboration task for unfamiliar teams, followed by an explicit review and team-confirmation decision. | F07; Aisaule, Daryn, and Nurdaulet, Q10-Q12. | Investigate participation choices, transparent review criteria, task relevance, and alternative effort windows. Do not treat it as a validated or compulsory reliability test. |
+| UR-07 | If project history is implemented, show understandable contribution context and supporting links or confirmations, with visibility and correction controls. | F08-F09; Aisaule, Daryn, and Nurdaulet, Q13-Q15. | Avoid a commit-count-based reliability score and automatic penalties for missing history. Verification and dispute procedures still need design. |
+
+### 7.2 Proposed first-version priorities
+
+1. **Prioritize team discovery:** a minimal participant profile, clear team posts, role/technology search, relevant availability or goal information, and an application or invitation workflow. These most directly address the explicit Q16 priorities.
+2. **Support coordination with a limited workspace:** basic task responsibility, progress, milestones, and project links align with reported coordination needs and the existing diploma scope. Evaluate actual use rather than assuming an integrated board will keep itself updated.
+3. **Keep Trial Sprint in the research and prototype scope:** explore a small, transparent collaboration and review flow, while testing participation burden and variable timing. These interviews provide feedback on the concept; they do not evaluate the method's effectiveness.
+4. **Treat advanced project history and reliability scoring as later decisions:** a basic portfolio link may be sufficient initially. A full history, verification, reviews, and disputes require further evidence and design; an overall reliability score is not established as necessary.
+
+Hackathon catalog, registration, organizer management, judging, and other planned platform functions remain part of the broader project context. Their detailed requirements were not established by this focused three-student study and should be traced to other project evidence.
+
+### 7.3 Future evaluation
+
+A later study could investigate search effort, perceived suitability, application completion, Trial Sprint participation and burden, and team-confirmation decisions. Evaluating matching quality or downstream collaboration requires an explicit comparison and real observations. The current interviews do not supply baseline measurements, effect sizes, or proof of improvement.
+
+## 8. Research limitations
+
+- The sample consists of three students in development roles, including one team leader and one participant with design responsibilities. It does not cover organizers, judges, nontechnical team members, or all prospective users.
+- Recruitment details were not supplied. Selection bias and relationships between participants cannot be assessed. It is also unknown whether accounts refer to separate events.
+- Answers rely on memory and self-report. The reported incidents were not independently checked against projects, messages, or event records.
+- All discussions were reported as approximately 20 minutes. The supplied material consists of structured answer records, not full recordings or verbatim transcripts, so follow-up depth and interviewer effects cannot be fully assessed.
+- English summaries involve translation and condensation. They preserve the supplied meaning but must not be presented as verbatim English quotations.
+- Reactions to proposed features reflect hypothetical willingness. No working matching method, Trial Sprint, or reliability profile was evaluated in these interviews.
+- The records contain both problems and successful adaptations. The analysis cannot estimate how frequent the problems are across students or establish causal relationships.
+- Three participants' preferences do not establish an optimal duration, matching formula, general reliability score, or final MVP scope.
+
+## 9. HACK-3 acceptance criteria and remaining work
+
+| Acceptance criterion | Evidence in this report or remaining action |
+|---|---|
+| At least 3-5 real user discussions or a substantive real client discussion are documented. | Three student response records are documented in Appendix A. The project author confirmed real, in-person discussions on 21 October 2026, approximately 20 minutes each. |
+| Research methodology and interview questions are included. | Sections 2-4 document the method, source limitations, and 16-question guide. |
+| Key user problems and expectations are identified. | Section 5 presents traceable findings and first-version priorities. |
+| Trial Sprint feedback is collected and analyzed. | Section 5.2 distinguishes usefulness, limitations, effort, elapsed periods, and timing. |
+| Validated findings are separated from assumptions. | Section 6 separates supported accounts and preferences from untested hypotheses and design proposals. |
+| A structured summary of research findings is included. | The research summary and Section 5 provide structured findings. |
+| Conclusions are connected to functional requirements. | Section 7 maps candidate requirements to findings and question IDs. |
+| No interview results or user statements are fabricated. | Participant summaries and findings are based on the supplied answers. Dates, format, and duration use the project author's confirmation. No additional participant answers, quotations, or performance measurements are claimed. |
+| The document is committed to GitHub and reviewed through a Pull Request. | The earlier protocol is in [Draft PR #6](https://github.com/HackTeam-AITU/hackteam-diploma/pull/6). This updated local report still needs a commit to that branch and peer review. |
+
+The next step is to check the English summaries against the original answers, commit this update to HACK-3-user-research, and submit the existing PR for review when ready. HACK-3 should be closed only after the remaining review and workflow requirements are satisfied.
+
+## Appendix A. Participant records
+
+The following are English paraphrases of the supplied Russian answers. They are not verbatim quotations. All three records have the same metadata reported by the project author: date 21 October 2026, in-person format, approximate duration 20 minutes. Use of responses was reported as permitted in each record.
+
+### Aisaule — Frontend developer and UI/UX designer
+
+**Q01 — Recent experience:** Participated in a university hackathon, working on the application interface and some frontend development. Joined the team before the event.
+
+**Q02 — Search process:** Asked acquaintances, then posted in a university Telegram group. An acquaintance connected the participant with a team needing a frontend developer. The search took approximately two days.
+
+**Q03 — Selection criteria:** Considered teammates' technologies and previous team-project experience. Had little information about their responsibility or working style.
+
+**Q04 — Search difficulties:** Finding a team whose needs matched the participant's skills was difficult; some teams sought experienced developers only. Eventually joined a team willing to work together.
+
+**Q05 — Availability and expectations:** The team agreed to devote most available free time to the hackathon, but classes prevented some members from working at the same time.
+
+**Q06 — Task allocation and tracking:** The team leader assigned tasks. The participant handled design and frontend, while others worked on backend and the presentation. Tasks were recorded in Telegram.
+
+**Q07 — Communication:** Used Telegram and Discord. Important information could be difficult to retrieve because messages were lost in the general chat.
+
+**Q08 — Deadlines:** Submitted on time, but the final hours were stressful. Backend and frontend integration required last-minute fixes.
+
+**Q09 — Changes in participation:** One member became less active because of personal matters. Tasks were redistributed, increasing the workload for others.
+
+**Q10 — Trial Sprint usefulness:** Would consider Trial Sprint useful for unfamiliar teammates to explore whether collaboration feels comfortable; it might be unnecessary for a group of friends.
+
+**Q11 — Trial Sprint effort and timing:** Would spend approximately 2-3 hours within two days, several days before the hackathon. Would decline an excessively large task.
+
+**Q12 — Trial Sprint observations and limitations:** Would look for fulfillment of responsibilities and communication. One task may not reveal actual skills fully, particularly when someone is anxious.
+
+**Q13 — Project history and trusted evidence:** Would consider previous projects, skills, and GitHub links useful, with greater trust in projects that can be inspected directly.
+
+**Q14 — Visibility and privacy:** Would share skills, projects, and achievements, while keeping contacts and personal information private. Wants control over visibility.
+
+**Q15 — Fairness and correction:** People with little experience should not be considered poor teammates. Reviews can be subjective, and inaccurate information should be correctable.
+
+**Q16 — First-version priority:** Prioritizes finding teams that need particular skills, such as selecting React and seeing teams that require frontend development.
+
+### Daryn — Backend developer and team leader
+
+**Q01 — Recent experience:** Participated in a student hackathon as a backend developer and team leader. Formed a four-person team and completed the project.
+
+**Q02 — Search process:** Knew two other members in advance and searched for a fourth through university Telegram groups and acquaintances. The search took approximately three days.
+
+**Q03 — Selection criteria:** Looked at technical skills and previous projects, including Git and API experience. Teamwork capability remained difficult to assess beforehand.
+
+**Q04 — Search difficulties:** The team needed a frontend developer, while most available candidates worked on backend. Eventually found someone through acquaintances; the search delayed discussion of the idea.
+
+**Q05 — Availability and expectations:** The team aimed to reach the final and agreed to work actively. Differing night-time availability required schedule adjustments.
+
+**Q06 — Task allocation and tracking:** Assigned the main tasks and used GitHub Projects to track tasks and statuses. Each member was responsible for a project area.
+
+**Q07 — Communication:** Used Discord for communication and GitHub for code. Unannounced code changes caused coordination problems; one incident required resolving merge conflicts.
+
+**Q08 — Deadlines:** Was close to missing the deadline. An API error discovered two hours before submission led the team to drop an optional feature and focus on repairing the core system.
+
+**Q09 — Changes in participation:** One member was unreachable for several hours, leaving task completion unclear. The cause was later identified as technical problems; the team then agreed to provide more frequent progress updates.
+
+**Q10 — Trial Sprint usefulness:** Would find Trial Sprint useful for unfamiliar developers, for example through a small API or feature task, but would not want to repeat it for every hackathon.
+
+**Q11 — Trial Sprint effort and timing:** Would spend approximately 3-4 hours within two to three days, around a week before the event. A task requiring a complete project would be excessive.
+
+**Q12 — Trial Sprint observations and limitations:** Would examine code work, Git use, communication, and fulfillment of agreements. A short task would not reveal performance under strong pressure.
+
+**Q13 — Project history and trusted evidence:** Would consider GitHub, previous projects, individual roles, and actual outcomes useful. Organizer confirmation would increase trust.
+
+**Q14 — Visibility and privacy:** Would share projects, technologies, and hackathon participation history. Personal reviews and contacts should require permission.
+
+**Q15 — Fairness and correction:** Contribution is not captured objectively by code volume alone: fewer lines may involve more difficult work. Reliability should not be assessed only by commit counts.
+
+**Q16 — First-version priority:** Prioritizes teammate search with filters for technologies, experience, and availability. Expects this could reduce team formation effort; the interview does not measure that effect.
+
+### Nurdaulet — Fullstack developer
+
+**Q01 — Recent experience:** Participated with classmates in a four-person hackathon team, working on frontend and helping with backend. The team was assembled before the event.
+
+**Q02 — Search process:** Started as a group of three, then posted in a university group to find a fourth member. The search took approximately one day.
+
+**Q03 — Selection criteria:** Considered skills and interest in the topic, especially willingness to work. This was difficult to assess in advance.
+
+**Q04 — Search difficulties:** Some people initially agreed and later declined. One acquaintance withdrew the day before the hackathon, requiring an urgent replacement search.
+
+**Q05 — Availability and expectations:** Agreed to work after classes and during the event, but members differed in ambition: some wanted to try the experience while others wanted to win.
+
+**Q06 — Task allocation and tracking:** Allocated tasks jointly. The participant worked on the interface and API integration. Used Trello, although task statuses were not always updated.
+
+**Q07 — Communication:** Used Telegram and occasional Discord calls. Delayed responses were the main communication difficulty.
+
+**Q08 — Deadlines:** Submitted the project but did not implement every planned feature. Extended discussion of extra capabilities and late testing reduced the available implementation time.
+
+**Q09 — Changes in participation:** No one fully left during the event, but one member became less active near the deadline. The team discussed this and reassigned some tasks.
+
+**Q10 — Trial Sprint usefulness:** Would consider Trial Sprint useful for unfamiliar teammates, but an obligatory stage could obstruct people who want to form a team quickly and start the hackathon.
+
+**Q11 — Trial Sprint effort and timing:** Would spend approximately 1-2 hours within one to two days, preferably three to four days before the hackathon. Would not want it to take an entire week.
+
+**Q12 — Trial Sprint observations and limitations:** Would look at fulfillment of promises and responsiveness. A small task may not reflect behavior during the actual hackathon.
+
+**Q13 — Project history and trusted evidence:** Would consider participation history but not make it the main criterion. A newcomer can be more motivated than an experienced participant. Project links and supported skill claims would help.
+
+**Q14 — Visibility and privacy:** Would share technologies, projects, and event participation, while controlling which data other users can access.
+
+**Q15 — Fairness and correction:** Lack of prior participation should not automatically lead to a low rating. Peer reviews may reflect team conflicts; a way to challenge reviews is needed.
+
+**Q16 — First-version priority:** Prioritizes team announcements with a project description, required skills, and open places, with an in-app application rather than searching across chats for the captain's contact.
+
+## Appendix B. Blank interview record template
 
 ```text
-Participant ID:
+Participant name or research ID:
 Interview date and duration:
 Interviewer:
 Interview language and format:
@@ -178,93 +424,10 @@ Post-interview analyst notes — separate from participant answers:
 - Context affecting interpretation:
 ```
 
-## 6. Findings classification and later analysis
-
-Suggested topic labels: search channels; skills and roles; availability; expectations and commitment; responsibilities; communication; deadlines; withdrawal; successful practices; Trial Sprint; profile evidence; privacy; fairness; MVP priorities. These are coding categories, not confirmed findings.
-
-Classify each item as:
-
-- **Reported experience:** an account of a particular past event; it has not necessarily been independently verified.
-- **Participant opinion:** a preference or judgement, including reactions to proposed features.
-- **Researcher assumption:** an interpretation that still needs supporting evidence.
-- **Proposed solution:** a candidate requirement or feature, with its evidence and remaining uncertainty.
-
-After interviews, use a traceable findings table:
-
-| Finding ID | Finding and evidence type | Participant and question IDs | Supporting and conflicting accounts | Candidate requirement / MVP implication | Remaining uncertainty |
-|---|---|---|---|---|---|
-
-For this small study, “supported finding” means supported within the recorded interviews. Do not generalize it to all students. Report counts with a clear denominator and distinguish not asked, no issue experienced, and disagreement. Record conflicting feedback rather than forcing a consensus.
-
-For Trial Sprint, preserve individual duration estimates and distinguish active work time from elapsed calendar time. Positive reactions indicate perceived usefulness; they do not demonstrate that a Trial Sprint improves team performance. Assessing effectiveness would require a separate evaluation.
-
-## 7. Limitations to report
-
-Document the actual sample size and roles, recruitment method, interview context, missing perspectives, reliance on memory and self-report, and possible interviewer or translation effects. A small convenience sample does not establish prevalence across the student population. Feedback about concepts is not evidence of actual adoption or improved team outcomes.
-
-## 8. Results and evidence status
-
-### 8.1 Current evidence
-
-No real interview records have been supplied for this version. There are no participant accounts, interview dates, consent confirmations, or verified quotations to report here. This describes the material available for this document, rather than making a claim about research conducted elsewhere by the project team.
-
-Consequently, no empirical findings, participant counts, agreement rates, or validated user preferences are reported. In particular, there is no empirically established Trial Sprint duration and no evidence in this document demonstrating that Trial Sprint improves team performance.
-
-### 8.2 Findings summary
-
-Data collection and analysis are pending. After real discussions, replace this status summary with de-identified accounts of user problems, expectations, successful existing practices, workarounds, and conflicting opinions. Link each finding to participant IDs and question IDs using the analysis table in Section 6.
-
-For each proposed finding, state whether it is a reported past experience, a participant opinion, or a researcher interpretation. Do not generalize a small convenience sample to all students.
-
-### 8.3 Trial Sprint and Project Reliability Profile
-
-Real feedback on both proposed concepts is pending. Analyze their perceived benefits, lack of usefulness, limitations, participation conditions, and alternatives. For Trial Sprint, distinguish active work time from elapsed calendar time. For project history, record evidence preferences, visibility expectations, fairness concerns, and correction needs.
-
-Positive opinions would establish perceived usefulness within the sample, rather than prove adoption or improved outcomes. A separate evaluation would be needed to assess the effectiveness of the proposed team formation method.
-
-## 9. Assumptions, candidate requirements, and MVP implications
-
-The following are questions and design candidates derived from the project scope. They are not conclusions from completed interviews. Actual feedback may support, contradict, refine, or defer them.
-
-| ID | Assumption to investigate | Candidate functional requirement | Questions | MVP decision status |
-|---|---|---|---|---|
-| C01 | Skills, role expectations, and availability may influence team selection. | Allow participants to describe relevant skills, desired roles, and availability for a particular event. | Q03-Q05 | Investigate useful fields and acceptable visibility before making them mandatory. |
-| C02 | Explicit responsibilities and deadline tracking may help teams coordinate. | Provide a workspace with identifiable task owners, task statuses, and deadlines. | Q06-Q09 | Already within the proposed project scope; details and priority remain to be assessed with users. |
-| C03 | Preliminary collaboration may help some unfamiliar teams, while creating extra effort for others. | Support a small shared task followed by an explicit decision about team confirmation. | Q10-Q12 | Effort, timing, participation rules, and evaluation criteria remain undecided. |
-| C04 | Unclear team entry requirements may make it difficult for prospective members to assess suitability. | Explain required roles, expected contributions, and relevant participation conditions. | Q02-Q05, Q16 | Validate the information needs of prospective members and team leaders. |
-| C05 | Prior participation records may inform decisions but introduce trust, privacy, and fairness concerns. | If project history is implemented, explain the evidence behind records and support visibility and correction controls. | Q13-Q15 | Treat as a candidate extension. Missing history must not automatically be treated as poor reliability. |
-
-After collecting real feedback, connect each recommendation to source answers and explain the reported consequence, current workaround, conflicting accounts, and reason for including or excluding the function from the MVP. Avoid choosing priorities solely because they match the original product idea.
-
-## 10. HACK-3 acceptance criteria status
-
-This table describes the document rather than the live status of YouTrack or GitHub.
-
-| Acceptance criterion | Status in this draft |
-|---|---|
-| At least 3-5 real user discussions or a substantive real client discussion are documented. | Pending real discussion records. |
-| Research methodology and interview questions are included. | Included as a planned protocol with 16 core questions. |
-| Key user problems and expectations are identified. | Pending empirical analysis. Topics and assumptions are provided. |
-| Feedback on Trial Sprint is collected and analyzed. | Pending real feedback. |
-| Validated findings are separated from assumptions. | Assumptions are explicit; no validated findings are claimed. |
-| A structured summary of research findings is included. | Pending real data; an analysis framework is provided. |
-| Conclusions are connected to functional requirements. | Pending empirical conclusions; candidate requirements are labeled as provisional. |
-| No interview results or user statements are fabricated. | No participant results or quotations are claimed in this draft. |
-| The document is committed to GitHub and reviewed through a Pull Request. | Pending publication and review; no commit, PR, or review is claimed here. |
-
-This preparation document alone does not satisfy the completed-research acceptance criteria of HACK-3. A draft Pull Request can be used to discuss the protocol while data collection remains pending.
-
-## 11. Next actions
-
-1. Recruit real participants, or prepare for the permitted substantive discussion with a real client or organizer.
-2. Obtain consent and collect actual responses using the template in Section 5.
-3. Prepare de-identified summaries, preserving references to the questions and the distinction between quotations and paraphrases.
-4. Analyze supporting and conflicting accounts, identify findings supported by the interviews, and retain unresolved questions explicitly.
-5. Revise functional requirements and MVP priorities using the actual findings.
-6. Update this document with the actual method, sample, results, and limitations. Remove outdated pending-status statements only when the corresponding work is documented.
-7. Submit the document for peer review through a Pull Request and complete the acceptance criteria before closing HACK-3.
-
 ## Project context
 
-- [HACK-3 task](https://hackteam-aitu-2027.youtrack.cloud/issue/HACK-3): task description and acceptance criteria supplied in the project conversation.
-- [HackTeam project README](https://github.com/HackTeam-AITU/hackteam-diploma/blob/main/README.md): proposed project scope and features.
+- [HACK-3 task](https://hackteam-aitu-2027.youtrack.cloud/issue/HACK-3): research objectives and acceptance criteria supplied in the project conversation.
+- [HackTeam project README](https://github.com/HackTeam-AITU/hackteam-diploma/blob/main/README.md): planned system scope and proposed team formation concepts.
+- Primary qualitative material: three participant answer records supplied by the project author, with collection metadata subsequently confirmed. Only the supplied first names are used; surnames and contact details are excluded.
+
+No literature review, competitor comparison, or performance evaluation is claimed by this document.
