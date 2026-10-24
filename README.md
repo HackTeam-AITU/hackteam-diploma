@@ -1,12 +1,18 @@
 # HackTeam — Diploma Project
 
-## Project Overview
+**Stage:** First pre-defense — research, requirements, architecture, and UX prototyping  
+**University:** Astana IT University  
+**Program:** Software Engineering  
+**Academic supervisor:** Myrzakerimova Alua Bauyrzhankyzy  
+**Status as of 24 October 2026:** Main pre-defense documentation is present. Software implementation and experimental validation remain future work.
 
-HackTeam is a proposed web-based platform for managing student hackathons and supporting team formation through multi-criteria matching and preliminary team interaction assessment.
+## Project overview
 
-The platform aims to help students find suitable teammates, evaluate initial collaboration through a Trial Sprint, and manage hackathon participation within a unified system.
+HackTeam is a proposed web-based hackathon management and student team formation platform. It supports finding teammates, organizing events, managing team work, and submitting projects. Its research focus is a transparent **multi-criteria team formation method** with an optional **Trial Sprint** for observing initial team collaboration before final membership confirmation.
 
-## Official Diploma Project Title
+The project does not assume that recommendations or Trial Sprint will improve real-world team outcomes. These hypotheses must be evaluated using appropriate baselines, recorded data, and a clearly stated methodology.
+
+## Official diploma project title
 
 **English:** Development and Evaluation of a Multi-Criteria Method for Student Team Formation with Preliminary Assessment of Team Interaction in a Hackathon Management Web System
 
@@ -14,90 +20,109 @@ The platform aims to help students find suitable teammates, evaluate initial col
 
 **Kazakh:** Хакатондарды басқару веб-жүйесінде командалық өзара әрекеттесуді алдын ала бағалау арқылы студенттік командаларды көпкритерийлі қалыптастыру әдісін әзірлеу және зерттеу
 
-## Problem Statement
+## Problem and users
 
-Students often form hackathon teams based primarily on technical skills. However, team members may have different schedules, expectations, levels of commitment, and working approaches.
+Student teams may struggle with incomplete information about skills, required roles, availability, commitment, and collaboration preferences. HackTeam proposes a more structured team discovery and decision process, while retaining participant choice and privacy protections.
 
-HackTeam will investigate whether multi-criteria matching combined with a preliminary collaborative stage can support better-informed team formation decisions.
+**Primary users:** hackathon participants, student team leaders, and hackathon organizers. Mentors, judges, and administrators are additional roles; advanced workflows may be deferred from the initial MVP.
 
-## Target Users
+## Planned core functionality
 
-- Students and hackathon participants
-- Team leaders
-- Hackathon organizers
-- Mentors and judges
-- Platform administrators
+- Registration, authentication, profile and role management.
+- Hackathon discovery, event information, registration, and organizer tools.
+- Team posts, invitations, membership, and team confirmation.
+- Transparent candidate eligibility checks and multi-criteria matching with explanations.
+- Optional Trial Sprint: limited shared tasks, deadlines, reflection, and voluntary final team decision.
+- Basic team workspace, task management, and project submission.
+- Access control, data integrity, and support for planned testing and research evaluation.
 
-## Core Features
+**Optional/future:** comprehensive reliability scoring, detailed analytics, advanced judging, real-time communication, external integrations, AI-based recommendations, and native mobile applications. None is required to demonstrate the core research approach.
 
-- Participant profiles and skill management
-- Hackathon registration and management
-- Multi-criteria team formation
-- Team invitations and membership management
-- Trial Sprint for preliminary collaboration
-- Team workspace and task management
-- Project submission
-- Basic project evaluation
+## Scientific direction and evaluation
 
-## Proposed Differentiating Features
+The preliminary method first applies mandatory eligibility constraints, then ranks eligible candidates using normalized criteria and documented weights. The existing proposed formula is:
 
-**Multi-Criteria Team Formation:** Matching based on skills, required roles, availability, experience, and other relevant criteria.
+`S = w1 × R + w2 × A + w3 × E + w4 × P`
 
-**Trial Sprint:** A short collaborative stage that allows potential teammates to work together before confirming their final team.
+Here `R` denotes skill/role coverage; `A`, availability overlap; `E`, relevant experience complementarity; and `P`, alignment of working preferences. The proposed weights are non-negative and total one. The criteria definitions and weights require design validation; scores do not predict someone's character or guarantee success.
 
-**Project Reliability Profile:** An optional module for displaying verifiable project participation and task completion history.
+The evaluation plan distinguishes three approaches:
 
-The effectiveness of these features will be evaluated during the research phase.
+| Approach | Description | Intended comparison |
+|---|---|---|
+| B0 | Skill-based matching | Reference baseline |
+| B1 | Multi-criteria matching | Value and limitations of additional matching criteria |
+| B2 | The same B1 recommendations, followed by optional Trial Sprint | Potential decision-support value of preliminary collaboration |
 
-## Project Team
+Planned measures include role coverage, availability overlap, matching runtime, changes in team selection, participant feedback, and limits of observed collaboration. Initial user research consists of **three exploratory student interviews**, not a representative trial or experimental validation.
 
-**Rakhmetulla Madina Bauyrzhankyzy** — Multi-criteria team formation, Trial Sprint, participant profiles, and evaluation of the matching approach.
+See [Research Design and MVP Refinements](docs/research-design-refinements.md) and [Verification and Evaluation Plan](docs/evaluation-plan.md).
 
-**Talаsbek Kassymbek Arystanbekuly** — Hackathon management, team workspaces, task management, deadlines, and project submission.
+## Proposed technology and architecture
 
-**Yergalyuly Daniyar** — Backend architecture, access control, organizer management, project evaluation, analytics, and notifications.
+The [Technology Comparison](docs/technology-comparison.md) supports the following **preliminary** choices:
 
-**Academic Supervisor:** Myrzakerimova Alua Bauyrzhankyzy
+| Area | Proposed approach |
+|---|---|
+| Backend | Java + Spring Boot |
+| Database | PostgreSQL |
+| API | REST/JSON; OpenAPI for documentation |
+| Architecture | Modular monolith with separated application modules |
+| Frontend | React + TypeScript under consideration; not separately evaluated in the technology comparison |
+| Collaboration | GitHub, feature branches, Pull Requests, YouTrack |
 
-**University:** Astana IT University
+These choices describe the intended implementation; the project does not currently claim a functioning production deployment.
 
-**Educational Program:** Software Engineering
+## Team and responsibilities
 
-## Project Scope
+- **Rakhmetulla Madina Bauyrzhankyzy:** participant profiles, matching method, Trial Sprint, and research evaluation.
+- **Talasbek Kassymbek Arystanbekuly:** hackathon management, team workspace, task coordination, UX prototyping, and project submission.
+- **Yergalyuly Daniyar:** backend architecture, security, organizer functionality, integration, analytics, and technical planning.
 
-The initial scope focuses on the essential hackathon management, team formation, Trial Sprint, submission, and evaluation workflows.
+Cross-module integration, verification, and academic documentation are shared responsibilities. Contributions are traceable through issue ownership, commits, reviews, and merged Pull Requests.
 
-Advanced project history, expanded collaboration features, and additional integrations will be considered after the initial scope is validated.
+## First pre-defense documentation
 
-## Technology Stack
+The following documentation is available or prepared for inclusion in the `docs/` directory:
 
-Technology selection is in progress. Backend, database, and component communication alternatives will be compared and justified based on project requirements.
+| Area | Document |
+|---|---|
+| Research problem, objectives and scope | [Project Proposal](docs/project-proposal.md) |
+| Scientific background | [Literature Review](docs/literature-review.md) |
+| Three student interviews and limitations | [User Research](docs/user-research.md) |
+| Existing platforms and differentiation | [Competitor Analysis](docs/competitor-analysis.md) |
+| Backend, database and API comparison | [Technology Comparison](docs/technology-comparison.md) |
+| Functional/non-functional requirements | [Requirements Specification](docs/requirements.md) |
+| Context, use case and component architecture | [System Architecture](docs/architecture.md) and [editable diagrams](diagrams/README.md) |
+| UX/UI prototype, desktop and mobile views | [UX/UI Prototype](docs/ux-prototype.md) · [Figma](https://www.figma.com/design/8bzbLOmT1FdyWSTS0ABgdy?node-id=5-2) |
+| Verification and research protocol | [Evaluation Plan](docs/evaluation-plan.md) |
+| Roadmap, dependencies, responsibilities and risks | [Project Management and Risks](docs/project-management-risks.md) |
+| Reviewed feedback and response | [Supervisor Feedback](docs/supervisor-feedback.md) |
+| Specific design refinements and pending validation | [Research Design Refinements](docs/research-design-refinements.md) |
 
-## Current Status
+The architecture folder includes editable `.drawio` source files and PNG exports. The Figma prototype demonstrates planned interactions; it is not the implemented application.
 
-**Phase:** Initial research, requirements analysis, architecture design, and prototyping.
+## Current progress and limitations
 
-The full application has not yet been implemented.
+**Documented:** literature, proposal, three interviews, competitor and technology analysis, software requirements, architecture diagrams, interactive UX/UI prototype, planned test scenarios, evaluation methodology, milestone and risk register. The supervisor-feedback wording has been agreed to in principle, according to the project team; the review summary and follow-up design refinements are documented separately.
 
-## Project Management
+**Not yet claimed complete:** application backend/frontend implementation, integrated workflows, passing test results, actual Trial Sprint pilot, research participant outcome measurements, and proof of improved team quality. Proposed scheduling and scoring details require implementation and validation.
 
-**YouTrack:** https://hackteam-aitu-2027.youtrack.cloud/projects/HACK
+## Project management and review workflow
 
-**Documentation:** See the `docs/` directory as materials are added.
+**YouTrack:** https://hackteam-aitu-2027.youtrack.cloud/projects/HACK  
+**GitHub:** https://github.com/HackTeam-AITU/hackteam-diploma
 
-## Development Workflow
+Each substantial change should be associated with a YouTrack issue, prepared in a dedicated branch, submitted via a Pull Request, and reviewed before merging to `main`. All implementation and research results will be reported with their actual evidence rather than inferred from a plan.
 
-Project work is tracked through YouTrack issues. Each substantial change is developed in a dedicated Git branch referencing its issue ID.
+## Planned next stages
 
-Changes are submitted through GitHub Pull Requests and reviewed by another team member before being merged into `main`.
+1. Confirm MVP scope, API contracts, data model, and main integration checkpoints.
+2. Implement secure account and participant functionality plus hackathon and team basics.
+3. Implement explainable matching and a reproducible skill-based baseline.
+4. Implement optional Trial Sprint and core team workspace/submission flows.
+5. Run integration/security tests and real UX walkthroughs.
+6. Conduct research comparisons and any ethically approved participant pilot.
+7. Document limitations, completed work, and final academic outcomes.
 
-Individual contributions are recorded through commits, Pull Requests, task assignments, and documented deliverables.
-
-## Expected Outcomes
-
-- A working hackathon management web platform
-- A multi-criteria team formation method
-- A Trial Sprint workflow
-- System testing and validation results
-- A comparative evaluation of selected team formation approaches
-- Technical documentation and an academic diploma report
+For milestones and risk ownership, see [Project Management and Risk Assessment](docs/project-management-risks.md).
